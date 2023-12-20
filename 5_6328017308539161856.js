@@ -110,7 +110,7 @@ const userMessage = [
   function output(input) {
 
     const input1 = input
-    fetch("https://mbqjbflaya.execute-api.us-east-1.amazonaws.com/fisrts", {
+    fetch("https://<api>", {
       method: "POST",
       body: JSON.stringify({ "key1": input1 }),
       headers: {
